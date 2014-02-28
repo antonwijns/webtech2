@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Opdracht 1</title>
+<link rel="stylesheet" href="css/opdracht1.css">
+</head>
+<body>
+	
+<div class="circle circle1" > </div>
+<div class="circle circle2" > </div>
+<div class="circle circle3" > </div>
+
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".circle").click( function() {
+			$(".circle1").addClass("move1");
+			$(".circle2").addClass("move2");
+			$(".circle3").addClass("move3");
+		});
+	});
+	</script>
+
+</body>
+</html>
